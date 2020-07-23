@@ -1,0 +1,65 @@
+//-
+    name: header
+    description: Markup for the header block.
+    arguments:
+        - {object} props - Block properties.
+
+mixin header(props = {})
+    .header&attributes(attributes)
+        .container
+            nav.header__menu
+                ul.header__menu-list
+                    li <a href="#" class="header__link white">Главная</a>
+                    li <a href="#" class="header__link white">О нас</a>
+                    li <a href="#" class="header__link white">Тарифы</a>
+                    li <a href="#" class="header__link white">Вопросы и ответы</a>
+                    li <a href="#" class="header__link white">Контакты</a>
+            h1.header__title КОМПЛЕКСНОЕ УПРАВЛЕНЧЕСКОЕ РЕШЕНИЕ
+            h2.header__suptitle повышения прибыльности бизнеса через технологический подход и международную практику
+        
+            .header__lists
+                .row
+                    .col-4.list__item
+                        img.img(src="./assets/img/pie-chart.svg", alt="")
+                        p.white Оценка <br><span class="orange">где</span> расти
+                    .col-4.list__item
+                        img.img(src="./assets/img/analytics.svg", alt="")
+                        p.white Определение <br><span class="orange">что</span> взращивать      
+                    .col-4.list__item   
+                        img.img(src="./assets/img/idea.svg", alt="")
+                        p.white Реализация <br><span class="orange">как</span> расти
+                .row
+                    .col-6 
+                        h2.header__content-title Бизнес стратегия
+                        .row
+                            .col-3
+                                img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Финансы
+                            .col-3
+                                img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Рынок
+                            .col-3
+                                img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Бренд
+                            .col-3
+                                img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Дистрибуция
+                    .col-6 
+                        h2.header__content-title Планирование - показатели - персонал
+                        .row
+                            .col-4
+                                .wrapper
+                                    img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Бюждет
+                            .col-4
+                                .wrapper
+                                    img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Метрики
+                            .col-4
+                                .wrapper
+                                    img.dot(src="./assets/img/dot.svg", alt="")
+                                p.white Бонусы           
+                .header__background-wrapper
+                    button.header__background-button
+                        a(href="#").header__button-link получить программу
+            

@@ -1,0 +1,178 @@
+/**
+ * Styles for the header block.
+ */
+.header {
+    // Selector styles
+    // TODO: add code
+    height: 840px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+
+    &__menu {
+        width: 100%;
+    }
+
+    &__menu-list {
+        display: flex;
+    }
+
+    &__menu-list li {
+        margin: 50px 20px 0  0px;
+    }
+
+    &__title {
+        // font-family: 'MuseoSansCyrl';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        color: #FB7710;
+        text-transform: uppercase;
+        font-stretch: normal;
+        padding-top: 68px;
+    }
+    
+    &__suptitle {
+        // font-family:  'MuseoSansCyrl';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 12px;
+    }
+
+    &__lists {
+        text-align: center;
+        margin-left: 35px;
+        margin-right: -25px;
+    }
+
+    &__content-wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+        margin-left: 265px;
+        margin-right: 184px;
+    }
+
+    &__content-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    &__background-wrapper {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 45px;
+        width: 260px;
+        height: 60px;
+        border: 1px solid #FFFFFF;
+        // box-sizing: border-box;
+    }
+
+    &__background-button {
+        position: absolute;
+        z-index: 1;
+        left: 6px;
+        top: 6px;
+        width: 260px;
+        height: 60px;
+        background: #FB7710;
+        border: none;
+        
+        &:hover  {
+            left: -1px;
+            top: -1px;
+            transition: all  2s ;
+        }
+
+    &__button-link {
+        width: 260px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+.wrapper::before {
+    mix-blend-mode: normal;
+    opacity: 0.31;
+    border: 1px dashed #FFFFFF;
+}
+
+.wrapper:after {
+    mix-blend-mode: normal;
+    opacity: 0.31;
+    border: 1px dashed #FFFFFF;
+}
+
+.fonts {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.list__item {
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.list__item img {
+    margin-bottom: 15px;
+    height: 72px;
+}
+
+.orange {
+    // font-family: 'MuseoSansCyrl';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    color: #FB7710;  
+    text-transform: uppercase;  
+}
+
+.white {
+    // font-family: 'MuseoSansCyrl';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-stretch: normal;
+    color: #FFFFFF;
+}
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+    // BEM modifiers
+    // TODO: add code
+}
