@@ -1,0 +1,153 @@
+/**
+ * Styles for the program block.
+ */
+.program {
+    // Selector styles
+    // TODO: add code
+    .bg {
+        background: #323134;
+        border-radius: 50%;
+        border: 10px solid #FFFFFF;
+        box-sizing: border-box;
+        width: 150px;
+        height: 150px;
+    }
+
+    .line {
+        border: none;
+        background-color: #FB7710;
+        width: 30px;
+        height: 6px;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #27262A;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text2 {
+        margin-top: 22px;
+        // margin-bottom: 41px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FB7710;
+    }
+
+    &__title {
+        // font-family: MuseoSansCyrl;
+        margin-top: 65px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #27262A;
+    }
+
+    &__wrapper {
+        
+        text-align: center;
+        border: 1px solid #FB7710;
+        width: 350px;
+        height: 373px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    &__img {
+        margin-top: 30px;
+        // margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #27262A;
+        
+    }
+
+    &__background-wrapper {
+        position: relative;
+        z-index: 2;
+        // text-align: center;
+        margin: 0 auto;
+        margin-top: 26px;
+        width: 260px;
+        height: 55px;
+        border: 1px solid #323134;
+        // box-sizing: border-box;
+    }
+
+    &__background-button {
+        padding-left: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 6px;
+        top: 6px;
+        width: 260px;
+        height: 60px;
+        background: #FB7710;
+        border: none;
+        
+        &:hover  {
+            left: -1px;
+            top: -1px;
+            transition: all  2s ;
+        }
+    }
+
+    &__button-link {
+        width: 260px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 700;
+        // text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #323134;
+        margin-top: 5px;
+    }
+    .wrap {
+        display: flex;
+        justify-content: center;
+    }
+    // .wrapper::before {
+    //     mix-blend-mode: normal;
+    //     opacity: 0.31;
+    //     border: 1px solid #323134;
+    // }
+    
+    // .wrapper:after {
+    //     mix-blend-mode: normal;
+    //     opacity: 0.31;
+    //     border: 1px solid #323134;
+    // }
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+    // BEM modifiers
+    // TODO: add code
+}

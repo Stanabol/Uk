@@ -1,0 +1,67 @@
+//-
+    name: program
+    description: Markup for the program block.
+    arguments:
+        - {object} props - Block properties.
+
+mixin program(props = {})
+    .program&attributes(attributes)
+        .container
+            h1.program__title 10-ти НЕДЕЛЬНАЯ ПРОГРАММА
+            .row
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg
+                            img.program__img(src="./assets/img/finanse.svg", alt="")
+                        h2.program__subtitle Финансы
+                        hr.line
+                        p.text Рентабельность активов, продаж, инвестиций
+                        p.text2 1-2 неделя
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg
+                            img.program__img(src="./assets/img/distribution.svg", alt="")
+                        h2.program__subtitle Дистрибуция
+                        hr.line
+                        p.text Каналы сбыта и модели продаж
+                        p.text2 3-4 неделя
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg 
+                            img.program__img(src="./assets/img/finanse.svg", alt="")
+                        h2.program__subtitle Маркетинг
+                        hr.line
+                        p.text Рынок, ассортимент, ценовые стратегии
+                        p.text2 5-6 неделя
+            .row
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg
+                            img.program__img(src="./assets/img/finanse.svg", alt="")
+                        h2.program__subtitle Стратегии
+                        hr.line
+                        p.text Рентабельность активов, продаж, инвестиций
+                        p.text2 7 неделя
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg 
+                            img.program__img(src="./assets/img/finanse.svg", alt="")
+                        h2.program__subtitle Планирование
+                        hr.line
+                        p.text Структура, мотивация, бюджет
+                        p.text2 8-9 неделя
+                .col-4
+                    fieldset.program__wrapper
+                        legend.bg
+                            img.program__img(src="./assets/img/finanse.svg", alt="")
+                        h2.program__subtitle Метрики
+                        hr.line
+                        p.text Управленческий радар
+                        p.text2 10 неделя
+            .program__background-wrapper
+                button.program__background-button
+                    .wrap
+                        img.program__img-button(src="./assets/img/Shape.svg", alt="")
+                        a(href="#").program__button-link Смотреть видео
+                        
+                        
