@@ -1,0 +1,58 @@
+/**
+ * Styles for the konsalting block.
+ */
+.konsalting {
+    // Selector styles
+    // TODO: add code
+    height: 772px;
+    background-image: url(../img/konsalting.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+
+    &__wrapper {
+        height: 100%;
+        background-image: url(../img/konsalting-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        opacity: 0.88;
+    }
+
+    &__title {
+        padding-top: 63px;
+        font-size: 50px;
+        line-height: 59px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        padding-top: 16px;
+        padding-right: 210px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+    // BEM modifiers
+    // TODO: add code
+}
