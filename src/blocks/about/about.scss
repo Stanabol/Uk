@@ -1,0 +1,90 @@
+/**
+ * Styles for the about block.
+ */
+.about {
+    // Selector styles
+    // TODO: add code
+    &__title {
+        margin-top: 68px;
+        margin-bottom: 29px;
+        font-size: 50px;
+        line-height: 59px;
+        font-weight: 800;
+        color: #27262A;
+    }
+
+    &__wrapper {
+        mix-blend-mode: normal;
+        // opacity: 0.08;
+        border: 10px solid #979797;
+        box-sizing: border-box;
+        margin-left: 52px;
+        position: relative;
+        margin-top: 62px;
+        max-height: 215px;
+        max-width: 1072px;
+        margin-bottom: 100px;
+    }
+
+    &__bg-img {
+        background: #27262A;
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 121px;
+        width: 121px;
+        position: relative;
+        left: -62px;
+        top: -200px;
+    }
+
+    &__img {
+        left: 45px;
+        top: 25px;
+        position: absolute;
+    }
+
+    &__img-quotes {
+        position: absolute;
+        left: 80px;
+        top: 75px;
+    }
+
+    &__wrapper-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #27262A;
+        padding-top: 30px;
+        padding-left: 90px;
+        
+    }
+
+    &__wrapper-text {
+        font-size: 17px;
+        line-height: 24px;
+        color: #27262A;
+        left: 80px;
+        top: 75px;
+        padding-top: 10px;
+        padding-left: 90px;
+        padding-right: 80px;
+
+    }
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+    // BEM modifiers
+    // TODO: add code
+}

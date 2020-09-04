@@ -1,0 +1,28 @@
+//-
+    name: about
+    description: Markup for the about block.
+    arguments:
+        - {object} props - Block properties.
+
+mixin about(props = {})
+    .about&attributes(attributes)
+        .container
+            h1.about__title Что говорят о программе
+            .about__wrapper
+                h1.about__wrapper-title Президент компании:
+                p.about__wrapper-text Основным открытием было какие промежуточные финансовые показатели использовать для оценки эффективности работы предприятия и как через набор дистрибуционных и маркетинговых метрик увидеть правильный фокус в генерации роста прибыльных продаж. Сейчас все сложилось в общую картину. Прирост, который мы себе рисовали по году в 35%, вполне реалистичный!
+                .about__bg-img
+                    img.about__img(src="./assets/img/cheas.svg", alt="")
+                    img.about__img-quotes(src="./assets/img/quotes.svg", alt="")
+            .about__wrapper   
+                h1.about__wrapper-title Специалист по бизнес-процессам:
+                p.about__wrapper-text Интересно было разбирать европейские бизнес-кейсы других компаний и примерять на свою систему управления.
+                .about__bg-img
+                    img.about__img(src="./assets/img/skills.svg", alt="")
+                    img.about__img-quotes(src="./assets/img/quotes.svg", alt="")
+            .about__wrapper   
+                h1.about__wrapper-title Директор по маркетингу:
+                p.about__wrapper-text Увидела, что из небольшого количества цифр можно получить много полезной информации, научиться правильно их читать. Очень интересно, что можно планировать инвестиции и планировать их отдачу в виде процесса. Маркетинг должен быть прибыльным.
+                .about__bg-img
+                    img.about__img(src="./assets/img/presentation.svg", alt="")
+                    img.about__img-quotes(src="./assets/img/quotes.svg", alt="")        
