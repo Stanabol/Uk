@@ -9,20 +9,44 @@ mixin about(props = {})
         .container
             h1.about__title Что говорят о программе
             .about__wrapper
-                h1.about__wrapper-title Президент компании:
-                p.about__wrapper-text Основным открытием было какие промежуточные финансовые показатели использовать для оценки эффективности работы предприятия и как через набор дистрибуционных и маркетинговых метрик увидеть правильный фокус в генерации роста прибыльных продаж. Сейчас все сложилось в общую картину. Прирост, который мы себе рисовали по году в 35%, вполне реалистичный!
+                .about__wrapper-border
+                    h1.about__wrapper-title Президент компании:
+                    p.about__wrapper-text Основным открытием было какие промежуточные финансовые показатели использовать для оценки эффективности работы предприятия и как через набор дистрибуционных и маркетинговых метрик увидеть правильный фокус в генерации роста прибыльных продаж. Сейчас все сложилось в общую картину. Прирост, который мы себе рисовали по году в 35%, вполне реалистичный!
                 .about__bg-img
                     img.about__img(src="./assets/img/cheas.svg", alt="")
                     img.about__img-quotes(src="./assets/img/quotes.svg", alt="")
-            .about__wrapper   
-                h1.about__wrapper-title Специалист по бизнес-процессам:
-                p.about__wrapper-text Интересно было разбирать европейские бизнес-кейсы других компаний и примерять на свою систему управления.
+            .about__wrapper-right
+                .about__wrapper-border-right
+                    h1.about__wrapper-title-right Финансовый директор:
+                    p.about__wrapper-text-right Когда мы разбирали таблицы с долями рынка и т.д., понял, что если будем разбираться с предпочтениями потребителя, мы будем избирательно относиться к продуктам, которые выпускаем на рынок, отслеживать динамику и влиять на получение прибыли. Планирование прибыли не от прошлых показателей деятельности (продажи, товарный портфель, дистрибуция, маркетинг), а от улучшения положительного опыта взаимодействия покупателя с товаром и какую дополнительную маржу мы сможет от этого получить.
+                .about__bg-img-right
+                    img.about__img(src="./assets/img/people.svg", alt="")
+                    img.about__img-quotes-left(src="./assets/img/quotes.svg", alt="")
+            .about__wrapper
+                .about__wrapper-border 
+                    h1.about__wrapper-title Специалист по бизнес-процессам:
+                    p.about__wrapper-text Интересно было разбирать европейские бизнес-кейсы других компаний и примерять на свою систему управления.
                 .about__bg-img
                     img.about__img(src="./assets/img/skills.svg", alt="")
                     img.about__img-quotes(src="./assets/img/quotes.svg", alt="")
-            .about__wrapper   
-                h1.about__wrapper-title Директор по маркетингу:
-                p.about__wrapper-text Увидела, что из небольшого количества цифр можно получить много полезной информации, научиться правильно их читать. Очень интересно, что можно планировать инвестиции и планировать их отдачу в виде процесса. Маркетинг должен быть прибыльным.
+            .about__wrapper-right
+                .about__wrapper-border-right
+                    h1.about__wrapper-title-right Директор по продажам:
+                    p.about__wrapper-text-right После анализа предложенных метрик по дистрибуции увидел, что у нас избыточная структура, что отражается на финансовой метрике ROS (рентабельность продаж). Более того увидел как избыточная структура не правильно сфокусирована на рост прибыли. Теперь стало понятным почему при росте продаж прибыль не растет, видно где «съедаются» деньги и где стоят блокировки.
+                .about__bg-img-right
+                    img.about__img(src="./assets/img/hierarchical.svg", alt="")
+                    img.about__img-quotes-left(src="./assets/img/quotes.svg", alt="")
+            .about__wrapper
+                .about__wrapper-border   
+                    h1.about__wrapper-title Директор по маркетингу:
+                    p.about__wrapper-text Увидела, что из небольшого количества цифр можно получить много полезной информации, научиться правильно их читать. Очень интересно, что можно планировать инвестиции и планировать их отдачу в виде процесса. Маркетинг должен быть прибыльным.
                 .about__bg-img
                     img.about__img(src="./assets/img/presentation.svg", alt="")
-                    img.about__img-quotes(src="./assets/img/quotes.svg", alt="")        
+                    img.about__img-quotes(src="./assets/img/quotes.svg", alt="")
+            .about__wrapper-right
+                .about__wrapper-border-right
+                    h1.about__wrapper-title-right Аналитик:
+                    p.about__wrapper-text-right Важно было узнать подход, отличный от нашего! Увидел как многие значимые вещи можно оценить довольно простым подходом!
+                .about__bg-img-right
+                    img.about__img(src="./assets/img/list.svg", alt="")
+                    img.about__img-quotes-left(src="./assets/img/quotes.svg", alt="")        

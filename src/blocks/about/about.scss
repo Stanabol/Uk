@@ -14,38 +14,63 @@
     }
 
     &__wrapper {
+        margin-top: 80px;
+        position: relative;
+    }
+
+    &__wrapper-right {
+        margin-top: 80px;
+        position: relative;
+
+    }
+    &__wrapper-border {
         mix-blend-mode: normal;
-        // opacity: 0.08;
         border: 10px solid #979797;
         box-sizing: border-box;
         margin-left: 52px;
-        position: relative;
-        margin-top: 62px;
-        max-height: 215px;
-        max-width: 1072px;
-        margin-bottom: 100px;
+    }
+
+    &__wrapper-border-right {
+        mix-blend-mode: normal;
+        border: 10px solid #979797;
+        box-sizing: border-box;
+        margin-right: 42px;
     }
 
     &__bg-img {
         background: #27262A;
         border-radius: 50%;
-        box-sizing: border-box;
         height: 121px;
         width: 121px;
-        position: relative;
-        left: -62px;
-        top: -200px;
+        position: absolute;
+        top: -50px;
+    }
+
+    &__bg-img-right {
+        background: #27262A;
+        border-radius: 50%;
+        height: 121px;
+        width: 121px;
+        position: absolute;
+        left: 1000px;
+        top: -55px;
     }
 
     &__img {
-        left: 45px;
-        top: 25px;
+        left: 40px;
+        top: 20px;
         position: absolute;
     }
 
     &__img-quotes {
         position: absolute;
         left: 80px;
+        top: 75px;
+    }
+
+    &__img-quotes-left {
+        position: absolute;
+        right: 80px;
         top: 75px;
     }
 
@@ -61,6 +86,18 @@
         
     }
 
+    &__wrapper-title-right {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #27262A;
+        padding-top: 30px;
+        padding-right: 90px;
+        text-align: right;
+    }
+
     &__wrapper-text {
         font-size: 17px;
         line-height: 24px;
@@ -70,9 +107,21 @@
         padding-top: 10px;
         padding-left: 90px;
         padding-right: 80px;
-
+        padding-bottom: 25px;
     }
 
+    &__wrapper-text-right {
+        font-size: 17px;
+        line-height: 24px;
+        color: #27262A;
+        left: 80px;
+        top: 75px;
+        padding-top: 10px;
+        padding-left: 90px;
+        padding-right: 80px;
+        text-align: right;
+        padding-bottom: 25px;
+    }
     // @media queries
     // TODO: add code
 
